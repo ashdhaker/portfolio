@@ -1,0 +1,51 @@
+@media screen and (max-width:1500px){
+    
+    .about{
+        width: 100vw;
+    }
+    .para{
+        width: 82vw;
+    }
+    textarea{
+        width: 55vw;
+    }
+    
+}
+@media  screen and (max-width:693px)  {
+    .nav{
+        flex-direction: column;
+    }
+    .navlist ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .navlist ul li {
+        margin: 10px 0px;
+    }
+    textarea{
+        width: 80vw;
+    }
+    input{
+        padding: 10px 31px;
+        font-size: 20px;
+        margin: 14px;
+        
+    }
+    footer{
+        height: 17vh;
+        font-size: 17px;
+    }
+    button{
+        width: 50vw;
+    }
+}
+@media screen and (max-width:403px) {
+    input{
+        padding: 0px 0px;
+        font-size: 15px;
+        margin: 14px;
+    }
+    textarea {
+        width: 65vw;
+    }
+}
